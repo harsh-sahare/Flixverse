@@ -1,0 +1,35 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="240"
+  height="80"
+  viewBox="0 0 240 80"
+  preserveAspectRatio="xMinYMin meet"
+>
+  <defs>
+    <!-- Gradient for the play icon -->
+    <linearGradient id="flixGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7F00FF" />
+      <stop offset="100%" stop-color="#E100FF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Play icon circle -->
+  <circle cx="40" cy="40" r="35" fill="url(#flixGradient)" />
+
+  <!-- White Play triangle -->
+  <polygon points="32,26 32,54 54,40" fill="#fff" />
+
+  <!-- Wordmark -->
+  <text
+    x="85"
+    y="50"
+    fill="#fff"
+    font-family="Poppins, sans-serif"
+    font-size="32"
+    font-weight="600"
+    letter-spacing="0.5"
+  >
+    Flix
+    <tspan fill="url(#flixGradient)">verse</tspan>
+  </text>
+</svg>

@@ -1,0 +1,39 @@
+.nav {
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    z-index: 900;
+    transition: all .5s;
+}
+
+.nav-content {
+    width: var(--width);
+    margin: auto;
+    display: flex;
+}
+
+.nav.nav-dark {
+    background: linear-gradient(to bottom, black 90%, transparent);
+}
+
+.nav .logo,
+.nav .side-logo {
+    height: 40px;
+    object-fit: contain;
+}
+
+.logo {
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.side-logo {
+    margin: 20px;
+    margin-right: 20px;
+
+}
+
+* {
+    color: white;
+}
