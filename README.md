@@ -1,4 +1,3 @@
-
 # Flixverse — Movie Showcase Web App
 
 **Flixverse** is a movie discovery web application that allows users to explore popular movies, discover new content, and view detailed information about each movie. Built with modern web technologies, this project demonstrates the ability to integrate public APIs, adapt to pre-coded systems, and create a seamless user experience.
@@ -12,7 +11,6 @@
 - **Skeleton Loaders**: Implemented **skeleton loaders** for smoother user experience while fetching movie data, minimizing page load time perception.
 - **Lazy Loading**: Uses lazy loading for images and components, improving initial page load times.
 - **Movie Cards**: Displays movie posters with essential information like title, release year, rating, and genres. Poster images are fetched dynamically from TMDB’s image server.
-- **Infinite Scrolling**: Implements an infinite scroll feature for users to continuously discover new movies without the need to manually navigate between pages.
 
 ---
 
@@ -44,27 +42,24 @@
 ## How to Run the Project Locally
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/flixverse.git
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Run the app:
+
    ```bash
    npm start
    ```
 
 4. Open your browser and go to `http://localhost:3000`.
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
