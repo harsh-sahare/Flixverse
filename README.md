@@ -66,6 +66,5 @@
 ## Acknowledgments
 
 - **TMDB API**: For providing the movie data and images.
-- **Tailwind CSS**: For the responsive design and utility-first approach.
 - **React**: For building a performant, component-based UI.
 - **React Router**: For seamless navigation across the application.
